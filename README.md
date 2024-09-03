@@ -20,7 +20,7 @@
 
   * Connect your wallet to the dapp, paste your password hash and register. You get a free weapon to use in the game when you register your account.
 
-  * Download the archived game file <a href="https://file.io/VewszwyNUlWn">here</a> and extract the file.
+  * Download the archived game file <a href="https://file.io/sh0iOwlOCbVs">here</a> and extract the file.
     
   * Run the game, log in and play.
 
