@@ -530,12 +530,12 @@ def sign_in_window(_events):
             address = _address
             page.destroy()
             for i in asset_loader.load_weapons(_address):
-                if i == '0x86602Acf172312a56F773215E38CfE6886488565':
+                if i == '0x0417d15342314D7b8F149c466d6570E60B831Fe4':
                     weapons[i] = weapon1
-                elif i == '0x8Cf403eF46ABfee1c6755A6A5C54fed88277058C':
+                elif i == '0x0eEe29e0DDA87421Ed1A5F33DdbdA4D9371e4194':
                     weapons[i] = Weapon(30, bullet2_up, bullet2_down, bullet2_right, bullet2_left, 35, 3,
                                         "GreenFireBall")
-                elif i == '0xE7b6168784B0f2A708222641e23c27CBf7b583b0':
+                elif i == '0x0A1BFCE370dc39cC4CD713BD5f49d5A171d49D2c':
                     weapons[i] = Weapon(30, bullet3_up, bullet3_down, bullet3_right, bullet3_left, 35, 2,
                                         "GreenFireBall")
             weapon_values = list(weapons.values())

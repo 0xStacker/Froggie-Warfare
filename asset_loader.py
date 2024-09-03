@@ -6,7 +6,7 @@ web3 = Web3(Web3.HTTPProvider(infura_url))
 print(web3.is_connected())
 abi = open("abi.json", "r")
 abi_ = json.load(abi)
-address = '0x8867a66c0D92e091587F9580208350A018433354'
+address = '0x155E31b21C0E0261dB0d7a5E27e95f945e784d72'
 contract = web3.eth.contract(address=address, abi=abi_)
 call2 = contract.all_functions
 
