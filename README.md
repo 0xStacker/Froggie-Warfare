@@ -7,7 +7,8 @@
   The game's unique feature is the use of soulbound NFTs to represent in-game weapon assets, ensuring a truly immersive and secure gaming experience.
 
 <b>Getting Started:</b>
-![Screenshot (87)](https://github.com/user-attachments/assets/625c2681-e5ac-42c4-9651-baf242fe926b)
+![Screenshot (92)](https://github.com/user-attachments/assets/2544d53c-1719-4093-a8ac-5a07054e5419)
+
 
   * Register your game account: Currently, the game is deployed on Linea sepolia testnet, so grab some sepolia eth on Linea and
     go <a href="https://froggiewarfare.surge.sh/">here</a> to register. This is necessary to authenticate users because the game is written in Python and cannot communicate directly with wallet providers such as Metamask.
@@ -26,20 +27,20 @@
 <b>Purchasing A New Weapon </b>
 
 The weapons in the game are soulbound NFTs that can only be minted using the $CROACK meme coin on Linea. For the purpose of testing, a $CROACK token has been deployed along with the game contract on testnet. Head back to the dapp and mint some.
-![Screenshot (89)](https://github.com/user-attachments/assets/466fc115-6fba-4199-a6dc-1f659a1a185a)
+![Screenshot (93)](https://github.com/user-attachments/assets/3f033e5d-6f6b-4eca-be5c-2ac53c6485e0)
 
-Once minted, you are now ready to purchase new weapons available in the game, but first you can check the list of weapons that have been added to the game by clicking the button shown below.
-![Screenshot (90)](https://github.com/user-attachments/assets/eab5c6eb-9346-4e4b-b574-df320185c5e5)
+
+Once minted, you are now ready to purchase new weapons available in the game, but first, you can check the list of weapons that have been added to the game by clicking the button shown below.
+![Screenshot (94)](https://github.com/user-attachments/assets/80283380-a99d-4f4b-ac30-6f5cfe8691c9)
 
 clicking this button would return the address of all weapon NFTs that has been added to the game. New weapons with great design and kill effects would be added to the game as development progresses.
 To check each weapon's name in game, you can copy the weapon address and paste it under the "See Weapon Name" tab and click the button.
 
 Now, to purchase a weapon, copy its address and paste it under the <b>Purchase Weapon</b> tab and call the function as shown below.
-![Screenshot (91)](https://github.com/user-attachments/assets/4cfbc728-c3a6-480a-9ca6-f254e00dfd4a)
-
+![Screenshot (94)](https://github.com/user-attachments/assets/15aefb2d-08fd-40c2-8181-a48a1ed36e65)
 You can now go back to your game, log in and use your new weapon.
 
-See full demo video <a href="https://drive.google.com/file/d/1fvplLVR9XNhUWHY9RnMS4MLPQoHuS9e1/view?usp=drivesdk">Here</a>
+See full demo video <a href="https://drive.google.com/file/d/1tuGsEAHd_vku4NPkSZZ-MEdexknwz1Mq/view?usp=sharing">Here</a> to see how you can claim weapons for free by just holding EFROG NFT.
 
 
 <b> Controls: </b>
