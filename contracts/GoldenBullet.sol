@@ -16,9 +16,9 @@ contract GoldenBullet is GreenFireBall{
 
     function claim(address _user) external override returns(bool){
         if(IERC721(qualifiedNft).balanceOf(_user) > 0){
-            require(balanceOf(msg.sender) == 0, "Can only claim once");
+            require(balanceOf(_user) == 0, "Can only claim once");
             tokenId += 1;
-            _mint(msg.sender, tokenId);         
+            _mint(_user, tokenId);         
             emit ClaimWeapon(name(), _user);
             return true;                                                                            
         }
@@ -61,9 +61,4 @@ contract GoldenBullet is GreenFireBall{
         return cost;
     }
 
-     
-    // function getPurchaseToken() external view returns(address){
-    //     return purchase_token;
-    // }
-    
 }

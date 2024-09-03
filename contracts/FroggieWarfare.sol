@@ -22,11 +22,10 @@ contract FroggieWarfare{
     address private manager;
     mapping (address => bool) users;
     mapping(address => string) public userCred;
-    mapping(address => uint) public scores;
     mapping(address => bool) internal weaponCheck;
     mapping(address => address[]) internal userWeapons;
     address defaultWeapon;
-    address[] internal weapons;
+    address[] public weapons;
     mapping(address => string) internal weaponNames;
     string internal name;
 
@@ -122,7 +121,6 @@ contract FroggieWarfare{
         emit RegisterUser(msg.sender);
     }
 
-   
 // All weapons held by a user
     function getUserWeapons(address user) external view returns(address[] memory){
         return userWeapons[user];
@@ -165,6 +163,4 @@ contract FroggieWarfare{
         return weaponNames[_weaponAddress];
     }
 
-
- 
 }
