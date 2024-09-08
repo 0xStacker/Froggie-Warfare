@@ -69,7 +69,7 @@ frog_view = frog_up
 weapons = {}
 
 spawned = False
-worm_positions = [[200, 300], [400, 350], [600, 700]]
+# worm_positions = [[200, 300], [400, 350], [600, 700]]
 worms = []
 spawned_enemies = 0
 score = 0
